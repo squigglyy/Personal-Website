@@ -21,56 +21,92 @@
     
     <?php include('header.php');?>
 
-    <div class="about-container">
-    <img class="avatar"src="img/img_avatar.png" alt="Avatar">
-    <div class="about">
     
+    <div class="about">   
     
-    <h1>Matthew Monger</h1>
-    <h2>Still figuring it out</h2>
-    
-    <ul>
-    
-    
-        <li>
-        <a href="https://github.com/brandonlynch2402" aria-label="Github"  target="_blank" >
-            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-        </a>
-        </li>
-    
-    
-    
-        <li>
-        <a href="https://twitter.com/thenetcode" aria-label="Twitter"  target="_blank" >
-            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-        </a>
-        </li>
-    
-    
-    
-        
-    
-    </ul>
-    
+        <h1>Matthew Monger</h1>
+        <h2>Still trying to figure this out</h2>
+            
+      <div class="row">
+        <a class="socials" href="https://github.com/squigglyy" target="_blank"><img src="img/GitHub-Mark-Light-64px.png" alt=""><img src="img/GitHub-Mark-64px-orange.png" alt=""></a>
+        <a class="socials" href="#" target="_blank"><img src="img/project-nebulr.png" alt=""><img src="img/project-nebulr-orange.png" alt=""></a>
+        <a class="socials" href="#" target="_blank"><img src="img/twitter.png" alt=""><img src="img/twitter-orange.png" alt=""></a>
+      </div>      
+
+    </div>
+      
+    <footer class="footer">
+    <section class="container">
+      
+        © 2022 Matthew Monger · Powered by electrical energy.
+      
+    </section>
+  </footer>
+
+
 </body>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-    .about-container {
+    .about {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 600px;
+        margin-top: 150px;
+        width: 500px;
+        color: white;
+        text-align: center;
+        
+        
     }
 
-    .avatar {
-        display: block;
-        width: 350px;
-        height: 350px;
-        border-radius: 50%;
+    .about h1 {
+        padding-top: 10px;
+        font-size: 30px;
+    }
+
+    .about h2 {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    .socials {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 50px;
+        
+    }
 
+    .row {
+     display: flex;
+
+    }
+    .socials img { 
+        width: 40px;
+        height: 40px;
+    }
+   
+    .socials img:last-child {
+        display: none;  
+    }
+
+    .socials:hover img:last-child {
+        display: block; 
+    }
+
+    .socials:hover img:first-child {
+        display: none;  
+    }
+
+    .footer {
+        color: white;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+        left: 0;
+        bottom: 0;
     }
 </style>
 </html>

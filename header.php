@@ -23,8 +23,8 @@
 body {
     font-family: Outfit, sans-serif;
     background-color:  #003366;
-    background-image: radial-gradient(lightgray 0.09%, transparent 5%),
-    radial-gradient(lightgray 0.09%, transparent 5%);
+    background-image: radial-gradient(#0050a3 0.09%, transparent 5%),
+    radial-gradient(#0050a3 0.09%, transparent 5%);
     background-size: 40px 40px;
     background-position: 0 0, 20px 20px;
     
@@ -32,10 +32,10 @@ body {
     
 }
 .nav {
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     padding: 50px 0;
     z-index: 10;
     height: 70px;
@@ -44,7 +44,7 @@ body {
 }
 
 .logo {
-    margin-top: -20px;
+    margin-top: -15px;
     color: inherit;
     float: left;
     height: 51px;
@@ -52,8 +52,8 @@ body {
 }
 .logo img {
     
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .logo img:last-child {
