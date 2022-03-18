@@ -32,7 +32,7 @@
         I have a passion for technology and programming, 
         I love learning, and I am a student. 
         Right now, I am focusing on creating fun projects and school work. 
-        I hope to make the world a better, safer, and more enjoyable place.
+        I hope to make the world a better and more enjoyable place.
     </p>
   
     
