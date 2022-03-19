@@ -49,6 +49,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
     .about {
+        z-index: 5;
         display: block;
         margin-left: auto;
         margin-right: auto;

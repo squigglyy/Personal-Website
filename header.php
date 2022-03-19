@@ -1,7 +1,5 @@
 <?php echo '
-
-
-<nav class="nav">
+<nav class="nav" id="nav">
    
     <a  class="logo" href="index.php"><img src="img/project-nebulr.png" alt=""><img src="img/project-nebulr-orange.png" alt=""></a>
 
@@ -12,9 +10,21 @@
     <a class="option" href="projects.php">Projects</a>
     
     <a class="icon" href="login.php"><img src="img/outline_account_circle_white_24dp.png" alt=""><img src="img/outline_account_circle_white_24dp-orange.png" alt=""></a>
+
+    <div class="bar-group" onclick="responsive()"><div class="bar"></div></div>
 <nav>
 
+<script>
+function responsive() {
+    let nav = document.getElementById("nav");
 
+    if (nav.className === "nav") {
+        nav.className += " responsive"
+    }else {
+        nav.className = "nav";
+    }
+}
+</script>
 
 <style>
 
@@ -148,6 +158,81 @@ body {
     color: #FF8E00;
 }
 
+
+.bar {
+    
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.bar-group {
+    width: 80;
+    display: none;
+    height: 80px;          
+    
+    
+}
+/*  Responsive Screen  */
+
+@media screen and (max-width: 600px)
+{
+    
+      
+
+    .nav a:not(:last-child) {
+        display: none;
+        
+    }
+
+    .bar-group {
+    
+        display: block;
+        margin-top: 10px;
+        margin-left: 20px;
+                 
+        
+        
+    }
+
+    .nav {
+    background-color: #003366;
+    border-bottom: 3px white solid;
+    margin: 0;
+    height: 50px;
+    }
+
+   
+    .left {
+    margin-left: 0px;
+    }
+
+
+    .nav.responsive {
+        z-index: 100;
+        position: relative;
+        
+        height: 300px;
+        
+    }
+
+    .nav.responsive a:nth-child(5) {
+        display: none;
+      }
+
+    
+    
+    .nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        height: 50px;
+    }
+    }
+
+/*  Footer  */
 
 .footer {
     color: white;
