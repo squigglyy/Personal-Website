@@ -15,7 +15,7 @@
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <title>Project Nebulr</title>
+    <title>Home - Nebulr</title>
 </head>
 <body>
     
@@ -25,7 +25,7 @@
     <div class="about">   
     
         <h1>Matthew Monger</h1>
-        <h2>Still trying to figure this out</h2>
+        <h2>/* no comment */</h2>
             
       <div class="row">
         <a class="socials" href="https://github.com/squigglyy" target="_blank"><img src="img/GitHub-Mark-Light-64px.png" alt=""><img src="img/GitHub-Mark-64px-orange.png" alt=""></a>
@@ -38,7 +38,7 @@
     <footer class="footer">
     <section class="container">
       
-        © 2022 Matthew Monger · Powered by electrical energy.
+        © 2022 Matthew Monger 
       
     </section>
   </footer>
@@ -62,18 +62,18 @@
 
     .about h1 {
         padding-top: 10px;
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .about h2 {
-        padding-top: 10px;
-        font-size: 25px;
+        padding-top: 20px;
+        font-size: 30px;
     }
 
     .socials {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 50px;
+        margin-top: 30px;
         
     }
 
@@ -82,8 +82,8 @@
 
     }
     .socials img { 
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
     }
    
     .socials img:last-child {
@@ -98,15 +98,10 @@
         display: none;  
     }
 
-    .footer {
-        color: white;
-        position: fixed;
-        width: 100%;
-        text-align: center;
-        line-height: 2rem;
-        margin-bottom: 1rem;
-        left: 0;
-        bottom: 0;
-    }
+
+    
+
+
+
 </style>
 </html>

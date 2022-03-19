@@ -15,14 +15,43 @@
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <title>Project Nebulr</title>
+    <title>Blog - Nebulr</title>
 </head>
 <body>
     
     <?php include('header.php');?>
+
+
+    <div class="blogs">
+        <h1>Posts:</h1>
+    </div>
+
+
+
+
+    <footer class="footer">
+    <section class="container">
+      
+      
+        © 2022 Matthew Monger 
+      
+      
+    </section>
+  </footer>
     
 </body>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+    .blogs {
+        width: 500px;
+        height: 100%;
+        left: 33.33%;
+        display: block;
+    }
+
+    .blogs h1 {
+        font-size: 25px;
+    }
 </style>
 </html>

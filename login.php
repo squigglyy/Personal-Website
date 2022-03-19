@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<title>Login</title>
+<title>Login - Nebulr</title>
 </head>
 <body>
 <?php include('header.php');?>
@@ -34,6 +34,17 @@
 
     </form>
 </div>
+
+
+<footer class="footer">
+    <section class="container">
+      
+      
+        © 2022 Matthew Monger 
+      
+      
+    </section>
+  </footer>
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
@@ -63,7 +74,7 @@
 
 .box {
     position: absolute; 
-    top: 30%;
+    top: 200px;
     left: 50%;
     
     margin-left: -150px;

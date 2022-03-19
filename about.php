@@ -15,7 +15,7 @@
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <title>Project Nebulr</title>
+    <title>About - Nebulr</title>
 </head>
 <body>
     
@@ -30,7 +30,7 @@
     <p>
         My name is Matthew. 
         I have a passion for technology and programming, 
-        I love learning, and I am a student. 
+        I love learning and im a student right now. 
         Right now, I am focusing on creating fun projects and school work. 
         I hope to make the world a better and more enjoyable place.
     </p>
@@ -40,7 +40,7 @@
     <section class="container">
       
       
-        © 2022 Matthew Monger · Powered by electrical energy.
+        © 2022 Matthew Monger 
       
       
     </section>
@@ -56,12 +56,13 @@
         margin-left: auto;
         margin-right: auto;
         width: 600px;
+        margin-top: 100px;
     }
 
     .avatar {
         display: block;
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
@@ -94,16 +95,20 @@
     }
 
 
-
-
-    .footer {
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    line-height: 2rem;
-    margin-bottom: 1rem;
-    left: 0;
-    bottom: 0;
+    .about h1 {
+       
+        font-size: 25px;
     }
+
+    .about p {
+        
+        font-size: 18px;
+    }
+
+
+
+
+    
 </style>
+
 </html>
