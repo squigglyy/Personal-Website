@@ -28,11 +28,11 @@
     
     <h1>About Me</h1>
     <p>
-        My name is Matthew. 
-        I have a passion for technology and programming, 
-        I love learning and im a student right now. 
-        Right now, I am focusing on creating fun projects and school work. 
-        I hope to make the world a better and more enjoyable place.
+        Hello, My name is Matthew. 
+        I have a passion for technology and programming, it has started to become an addiction.
+        Learning new skills and solving problem is fun is always a fun challenge. 
+        At the moment i am focusing on creating a web aplication to help you get started with your tasks and bring you in the zone. 
+        
     </p>
   
     

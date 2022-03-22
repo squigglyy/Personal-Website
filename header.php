@@ -1,6 +1,11 @@
 <?php echo '
+
+
+
 <nav class="nav" id="nav">
    
+    <div class="bar-group" onclick="responsive()"><div class="bar"></div><div class="bar"></div><div class="bar"></div></div>
+
     <a  class="logo" href="index.php"><img src="img/project-nebulr.png" alt=""><img src="img/project-nebulr-orange.png" alt=""></a>
 
     <a class="option left" href="about.php">About</a>
@@ -11,8 +16,10 @@
     
     <a class="icon" href="login.php"><img src="img/outline_account_circle_white_24dp.png" alt=""><img src="img/outline_account_circle_white_24dp-orange.png" alt=""></a>
 
-    <div class="bar-group" onclick="responsive()"><div class="bar"></div></div>
+    
 <nav>
+    
+
 
 <script>
 function responsive() {
@@ -161,18 +168,23 @@ body {
 
 .bar {
     
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 5px;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 5%;
     margin: 5px;
 }
 
-.bar-group {
-    width: 80;
-    display: none;
-    height: 80px;          
+.bar-group .bar:hover {
+    background-color: #FF8E00;
     
+}
+
+.bar-group {
+    
+    display: none;
+    margin-top: 15px;
+    margin-left: 15px;
     
 }
 /*  Responsive Screen  */
@@ -181,18 +193,22 @@ body {
 {
     
       
-
-    .nav a:not(:last-child) {
+    .nav a {
         display: none;
         
     }
 
-    .bar-group {
+    .nav a:first-child {
+        padding-bottom: 0;
+    }
     
+
+    .bar-group {
+        width: 32px;
+        padding-top: 0px;    
         display: block;
-        margin-top: 10px;
-        margin-left: 20px;
-                 
+        cursor: pointer;
+        margin-bottom: 20px;    
         
         
     }
@@ -202,6 +218,10 @@ body {
     border-bottom: 3px white solid;
     margin: 0;
     height: 50px;
+    }
+
+    .nav .logo {
+        margin-bottom: 10px;
     }
 
    
@@ -214,22 +234,61 @@ body {
         z-index: 100;
         position: relative;
         
-        height: 300px;
+        height: 315px;
         
     }
 
     .nav.responsive a:nth-child(5) {
         display: none;
       }
-
-    
+      
+      
+     
     
     .nav.responsive a {
+        padding-left: 15px;
+        
         float: none;
         display: block;
         text-align: left;
         height: 50px;
     }
+
+    .nav.responsive .bar-group .bar:nth-child(1) {
+
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        border: 8.5px solid #003366;
+        border-radius: 0;
+        background:
+        linear-gradient(45deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 43%,#fff 45%,#fff 55%,rgba(0,0,0,0) 57%,rgba(0,0,0,0) 100%),
+        linear-gradient(135deg, #003366 0%,#003366 43%,#fff 45%,#fff 55%,#003366 57%,#003366 100%);
+
+    
+    }
+
+    .nav.responsive .bar-group .bar:nth-child(1) {
+        margin-left: -3px;
+        margin-top: -5px;
+    }
+
+    
+
+
+    .nav.responsive .bar-group .bar:nth-child(1):hover {
+       
+        background:
+        linear-gradient(45deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 43%,#FF8E00 45%,#FF8E00 55%,rgba(0,0,0,0) 57%,rgba(0,0,0,0) 100%),
+        linear-gradient(135deg, #003366 0%,#003366 43%,#FF8E00 45%,#FF8E00 55%,#003366 57%,#003366 100%);
+    }
+
+    .nav.responsive .bar-group .bar:nth-child(2) {
+        display:none;
+    }
+
+    .nav.responsive .bar-group .bar:nth-child(3) {
+        display:none;
     }
 
 /*  Footer  */
